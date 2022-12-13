@@ -1,2 +1,5 @@
 language: c
 script: make all
+- name: SonarCloud Scan for C and C++
+  uses: SonarSource/sonarcloud-github-c-cpp@v1.3
+
